@@ -1,0 +1,101 @@
+
+* {
+	margin: 0;
+	
+	box-sizing: border-box;
+	font-family: Georgia, serif;
+}
+body {
+	background-color: rgb(209, 191, 202);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.full {
+	width: 100%;
+	max-width: 1000px;
+	min-height: 100px;
+	background-color: rgba(97, 22, 59, 0.349);
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 2fr 3fr 1fr;
+}
+.left {
+	position: initial;
+	background-color: rgba(61, 5, 5, 0.944);
+	padding: 50px;
+	color:aliceblue;
+
+}
+.mid { 
+
+	position: initial;
+	background-color: rgba(32, 153, 103, 0);
+	padding: 20px;
+	color:rgb(212, 142, 11);
+
+}
+.right {
+	position: initial;
+	background-color: rgba(0, 0, 0, 0.944);
+	padding: 20px;
+	color:aliceblue;
+	
+}
+.image, .Kontakti, .Prasmes, .Valodas, .Vaļasprieki, .title,
+.DarbaPieredze,.Izglītība, .vardsUzvards, .flower {
+	margin-bottom: 20px;
+}
+img{
+	border-radius: 60%;
+	
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+
+}
+ul{
+	list-style-position: inside;
+	list-style-type:none;
+}
+.h2 {
+	background-color: rgb(70, 150, 4);
+}
+
+table{
+	text-align:left;
+	border-collapse: collapse;
+	width: 60%;
+	color:aliceblue;
+}
+td {
+	padding: 5px;
+ }
+.name{
+	margin-top: 20%;
+	font-size: x-large;
+}
+.title{
+	font-weight:bold ;
+}
+.vardsUzvards{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+.image{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20%;
+	
+}
+.image img{
+	width: 100%;
+}
+.image2 img{
+	width: 80%;
+}
